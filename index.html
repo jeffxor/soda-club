@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MEAN-seed</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-controller="meanSeed.controllers.mainController">
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>MEAN-seed</h1>
+
+        <p>
+            Sed vitae nisl at quam cursus dapibus sit amet eu urna. Vestibulum dui lectus, varius quis massa sed,
+            viverra egestas velit. Maecenas cursus ultrices risus, sed ultricies nisi lacinia non. Nam dictum dictum
+            enim eget vulputate. Aenean lobortis augue tincidunt, vestibulum velit at, ullamcorper erat. Proin ultrices
+            pharetra massa, vel convallis dui. Nullam sollicitudin malesuada fermentum. In mollis auctor metus, et
+            venenatis arcu adipiscing at. Sed pellentesque quam at mauris posuere, vel aliquam erat pharetra. In a ipsum
+            malesuada, scelerisque nisl eu, tempor sapien. Etiam sed sollicitudin dui.
+        </p>
+
+        <p><a class="btn btn-default" href="#">Lear more &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <div ng-view></div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; Company 2013</p>
+    </footer>
+</div>
+<!-- /container -->
+<script data-main="app/src/js/main" src="lib/requirejs/require.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "name": "mean-seed",
+    "version": "0.1.0",
+    "dependencies": {
+        "angular": "latest",
+        "angular-i18n": "latest",
+        "angular-animate": "latest",
+        "angular-cookies": "latest",
+        "angular-loader": "latest",
+        "angular-mocks": "latest",
+        "angular-resource": "latest",
+        "angular-route": "latest",
+        "angular-sanitize": "latest",
+        "angular-scenario": "latest",
+        "angular-touch": "latest",
+        "angular-translate": "1.x",
+        "angular-translate-loader-partial": "0.2.x",
+        "bootstrap": "3.x",
+        "jquery": "2.x",
+        "require-css": "latest",
+        "requirejs": "latest",
+        "underscore": "latest"
+    }
+}
